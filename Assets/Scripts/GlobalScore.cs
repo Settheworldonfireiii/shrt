@@ -15,5 +15,6 @@ public class GlobalScore : MonoBehaviour {
 	void Update () {
         InternalScore = CurrentScore;
         ScoreText.GetComponent<Text>().text = "" + InternalScore;
+        
 	}
 }

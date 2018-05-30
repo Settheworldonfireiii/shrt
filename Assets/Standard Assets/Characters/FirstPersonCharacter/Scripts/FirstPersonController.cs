@@ -1,8 +1,13 @@
 using System;
 using UnityEngine;
+
+
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+
+
+
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -41,6 +46,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        public Vector3 startPosition;
+        
         
 
         // Use this for initialization
@@ -56,6 +63,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            startPosition = transform.position;
+           
+            
+            
         }
 
 
@@ -63,7 +74,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void Update()
         {
 
-            
+           
 
 
             RotateView();

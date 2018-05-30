@@ -2,14 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Jimmy Vegas Unity Tutorial
-// These scripts will manage your health and updated AI
 
-
-
-//GLOBAL HEALTH
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GlobalHealth : MonoBehaviour
 {
@@ -24,7 +20,8 @@ public class GlobalHealth : MonoBehaviour
         HealthDisplay.GetComponent<Text>().text = "Health: " + PlayerHealth;
         if (PlayerHealth == 0)
         {
-            SceneManager.LoadScene(1);
+            
+            SceneManager.LoadScene(2);
         }
     }
 }

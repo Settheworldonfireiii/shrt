@@ -313,7 +313,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Scripts\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\Back2Mn.cs" />
     <Compile Include="Assets\Scripts\Bulla.cs" />
     <Compile Include="Assets\Scripts\CrossAnimate.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
@@ -325,24 +327,40 @@
     <Compile Include="Assets\Scripts\HandGunDamage.cs" />
     <Compile Include="Assets\Scripts\HandgunReloadin.cs" />
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
+    <Compile Include="Assets\Scripts\MainMenuOpts.cs" />
     <Compile Include="Assets\Scripts\OpenDoor001.cs" />
     <Compile Include="Assets\Scripts\PickUp9mm.cs" />
     <Compile Include="Assets\Scripts\PickUpMP5K.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Scripts\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Scripts\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Scripts\SMGAmmoPickUp.cs" />
     <Compile Include="Assets\Scripts\SMGDamage.cs" />
     <Compile Include="Assets\Scripts\SMGFire.cs" />
     <Compile Include="Assets\Scripts\SMGReloading.cs" />
+    <Compile Include="Assets\Scripts\TryAgain.cs" />
     <Compile Include="Assets\Scripts\ZombieFollow.cs" />
     <Compile Include="Assets\Scripts\ZScore100.cs" />
     <Compile Include="Assets\Scripts\ZScore25.cs" />
     <Compile Include="Assets\Scripts\ZScore50.cs" />
+    <Compile Include="Assets\Toon Style Water\Example\GodMode.cs" />
+    <Compile Include="Assets\Toon Style Water\FoamyWater.cs" />
+    <Compile Include="Assets\Toon Style Water\Sky\skyController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\Scripts\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Toon Style Water\ReadMe.txt" />
+    <None Include="Assets\Toon Style Water\Sky\FluffyCloudsShader.shader" />
+    <None Include="Assets\Toon Style Water\WaterSurface.shader" />
+    <None Include="Assets\Toon Style Water\WetGeometry.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
