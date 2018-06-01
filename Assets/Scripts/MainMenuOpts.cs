@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuOpts : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
 
-
+ 
 
     public void PlayGame()
     {
